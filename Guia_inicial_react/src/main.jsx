@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
-import Ejercicio_2_3 from './Ejercicio2.jsx'
+import Ejercicio_2_3 from './Ejercicio2_3.jsx'
 import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
