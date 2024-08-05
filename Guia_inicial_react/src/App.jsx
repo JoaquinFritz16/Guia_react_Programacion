@@ -41,7 +41,8 @@ function App() {
   }
   return (
     <>
-    <h1>Comprobacion de Nombre y Email</h1>
+    <h1>Ejercicio 1: Formularios</h1>
+    <h3>Comprobacion de Nombre y Email</h3>
     <br />
 
       <form onSubmit={handleSubmit}>
