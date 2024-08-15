@@ -1,4 +1,7 @@
-function ProductCard({ product }) {
+function ProductCard({ product, OnFavourite }) {
+	const handleFavourite = () => {
+		OnFavourite(product);
+	}
 	return (
 		<>
 			<h2>
@@ -7,6 +10,7 @@ function ProductCard({ product }) {
 			<br />
 			<img src={product.image} width="100" height="50"></img>
 			<p>Categoria: {product.category}</p>
+			<button onClick={handleFavourite}>Fav</button>
 		</>
 	);
 }
